@@ -43,7 +43,7 @@ async def get_calories(food):
     food_query = translator.translate(food) + " 100g"
     async with aiohttp.ClientSession() as session:
         async with session.get(
-            food_api_url + food_query, headers={"X-Api-Key": CALORIENINJAS}
+            calorieninjas_api_url + food_query, headers={"X-Api-Key": CALORIENINJAS}
         ) as response:
             return (await response.json())["items"][0]["calories"]
 

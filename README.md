@@ -24,6 +24,9 @@ python app.py
 ![Логирование тренировок](images/image2.png)
 
 
+Логирование еды  
+![Логирование еды](images/image5.png)
+
 Логирование воды  
 ![Логирование воды](images/image3.png)
 
